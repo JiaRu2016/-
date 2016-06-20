@@ -1,0 +1,13 @@
+Sturcture
+===========================================
+
+Step 1
+nation.R 调用 one_pvc.R 中的 SetPvc() 函数，初始化所有省份：建立文件夹和index文件
+21个省份正常
+新疆，广东，西藏 初始化出错, 错误原因是网页结构特殊, 手动改程序后正常
+4个直辖市没做
+24 + 3 + 4 = 31
+
+Step 2
+main.R 调用 ScpPvc.R, 
+ScpPvc函数 调用 one_city_year.R 中的 ScpCY() 函数 
